@@ -7,13 +7,13 @@ class ArgRunner {
 		Calculator calc = new Calculator();
 						
 		calc.plus(calc.a, calc.b);
-		calc.getResult(calc.result);
+		System.out.println(calc.result);
 		calc.minus(calc.a, calc.b);
-		calc.getResult(calc.result);
+		System.out.println(calc.result);
 		calc.multiply(calc.a, calc.b);
-		calc.getResult(calc.result);
+		System.out.println(calc.result);
 		calc.devide(calc.a, calc.b);
-		calc.getResult(calc.result);
+		System.out.println(calc.result);
 	}
 		
 }
