@@ -23,8 +23,8 @@ public class Calculator{
 			else this.result=a/b;
 		}
 		
-		public void getResult (double result){
+		/*public void getResult (double result){
 			System.out.println(result);
-		} 
+		} */
 }
 
