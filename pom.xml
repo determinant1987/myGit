@@ -1,7 +1,12 @@
-<project>
+ <project>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>ru.imoiseev</groupId>
+	<groupId>imoiseev</groupId>
 	<artifactId>java-a-to-z</artifactId>
 	<version>1.0</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
+	
+	<modules>
+        <module>chapter1</module>
+	</modules>
+	
 </project>
