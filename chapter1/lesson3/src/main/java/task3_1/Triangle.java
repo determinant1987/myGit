@@ -28,6 +28,8 @@ public static void main(String[] args){
 	Point a3 = new Point(-10.0, 10.0);
 	Triangle tr = new Triangle(a1,a2,a3);
 	System.out.println(tr.area());
+	MaxSide ms = new MaxSide();
+	System.out.println(ms.max(tr));
 	}
 }
 
